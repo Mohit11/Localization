@@ -1,2 +1,4 @@
 # RoboND-Localization
 Implementation of Particle Filter for robot localization
+
+This project implements Adaptive Monte-Carlo Localization (AMCL) in a mobile robot model deployed in a static mapped environment (Jackal Race map). Operation of AMCL method is tested on two different robot models in Gazebo and Rviz simulated environments utilizing ROS navigation stack to plan trajectory and drive the robot from an initial starting position to a targeted goal position. The effects of experimentation with various parameters corresponding to the AMCL and other ROS packages are observed and their impact on the overall performance is analyzed towards the end. Finally, the result is evaluated based on the robots capability to reach the goal position and the degree of certainty achieved in its pose while navigating through the map.
